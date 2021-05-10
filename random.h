@@ -3,7 +3,7 @@
 
 #define MY_RAND_MAX 32767
 
-void srand(unsigned int seed);
-unsigned int rand(void);
+void my_srand(unsigned int seed);
+unsigned int my_rand(void);
 
 #endif
