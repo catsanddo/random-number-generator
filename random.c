@@ -3,7 +3,7 @@
 #define CONSTANT1 263
 #define CONSTANT2 71
 
-unsigned int current_seed = 627183;
+static unsigned int current_seed = 627183;
 
 void my_srand(unsigned int seed)
 {
